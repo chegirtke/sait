@@ -8,8 +8,10 @@ body {
 }
 
 h1 {
-  font-size: 20px;
-  line-height: normal;
+  font-size: 30px;
+  line-height: 100px;
+    color:aliceblue;
+    background-color: black
 }
 
 nav {
