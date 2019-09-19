@@ -19,12 +19,30 @@ main{
     background: rgba(255, 255, 255,0.7 ) ;
     
 }
-.glavnaya{
-    padding: 20px 0px 30px 10px;/*внутренний отступ*/
-    background: #db0006;
-    border:5px solid #ffe600;/* рамка (размер стиль и цвет)*/
+.kal{
+    height: 40px;
+    margin-top:-9px;
+    margin-left: -40px;
+    margin-right: -40px;
+    background: black;
+    
 }
-
+.glavnaya{
+    box-sizing: border-box;
+    margin-left: -40px;
+    margin-right: -40px;
+    height: 90px;
+    background:#9e0909;
+    
+}
+.mutd{
+  font-family:arial;
+margin-right: 40px;
+    font-weight: 700;
+    font-size:20px;
+    text-decoration: none;
+    color: white;
+}
 h1 {
     white-space: nowrap;/*чтобы на новую строку не переходило*/
     font-family:serif;/*стиль шрифта*/
