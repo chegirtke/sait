@@ -3,43 +3,54 @@ body {
   font-size: 14px;
   line-height: 22px;
   font-family: "Georgia", serif;
-  color: white;
-background: url(oldtr.jpg) fixed;
+  color: black;
+background: url(oldtr.jpg) fixed;/*размер под*/
     background-position:100%,em;
     background-size:cover;
     background-repeat:no-repeat;
-
-     
- 
-      min-width: 1024px;
-      max-width: 1920px;
+    min-width: 1000px;
+   
+   
+}
+main{
+    padding: 10px 20px;
+    border:5px solid black;
+    margin-top:20px;
+    background: rgba(255, 255, 255,0.7 ) ;
     
+}
+.glavnaya{
+    padding: 20px 0px 30px 10px;/*внутренний отступ*/
+    background: #db0006;
+    border:5px solid #ffe600;/* рамка (размер стиль и цвет)*/
 }
 
 h1 {
-    white-space: nowrap;
-    font-family:serif;
-    background: white;
-  font-size: 30px;
-  line-height: 100px;
-
-    color:black;
+    white-space: nowrap;/*чтобы на новую строку не переходило*/
+    font-family:serif;/*стиль шрифта*/
     
+  font-size: 30px;/* размер шрифта*/
+    color:#ffe600;
+   padding-left:120px;
+    box-sizing: border-box;/**/
+    padding-bottom: 0px;
+    padding-top: 20px;
+   
 }
 
 nav {
-  color: #888888;
-border
+  color: black;
+
 }
 
 aside {
-  margin: 20px 0;
+  margin: 20px 0;/*внешний отступ*/
 
-  color: #c4c4c4;
+  color: black;
 }
 footer {
-  color:#aaaaaa;
-  border-top: 1px solid #aaaaaa;
-  margin-top: 30px;
+  color:black;
+  border-top: 1px solid #aaaaaa;/*вверхний бордер*/
+  margin-top:350px;
     padding-top: 10px;
 }
