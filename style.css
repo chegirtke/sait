@@ -1,11 +1,12 @@
 body {
+    
   padding: 0 30px;
   font-size: 14px;
   line-height: 22px;
   font-family: "Georgia", serif;
   color: black;
 background: url(oldtr.jpg) fixed;/*размер под*/
-    background-position:100%,em;
+    
     background-size:cover;
     background-repeat:no-repeat;
     min-width: 1000px;
@@ -13,6 +14,7 @@ background: url(oldtr.jpg) fixed;/*размер под*/
    
 }
 main{
+    box-shadow:0 20px 10px 2px rgba(0,0,0,0.9);
     padding: 10px 20px;
     border:5px solid black;
     margin-top:20px;
@@ -26,16 +28,38 @@ main{
     margin-right: -40px;
     background: black;
     
+    
 }
 .glavnaya{
+    background:#9e0909;
+    animation-name: manch;/*название анимации*/
+    animation-duration: 2s;/*длительность*/
     box-sizing: border-box;
     margin-left: -40px;
     margin-right: -40px;
     height: 90px;
-    background:#9e0909;
+    
     
 }
+@keyframes manch{/*сама анимация*/
+    0%{background-color: black;
+        }
+      
+}
+/*http://htmlbook.ru/css/cat/pseudoclass*/
+.mutd:hover{ /* псевдо класс, где при наведении будет меняться цвет и не только*/
+    animation-name:mutda;
+    animation-duration:0.7s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes mutda{
+    100%{
+        color:black;
+    }
+}
 .mutd{
+    
   font-family:arial;
 margin-right: 40px;
     font-weight: 700;
@@ -44,6 +68,7 @@ margin-right: 40px;
     color: white;
 }
 h1 {
+    
     white-space: nowrap;/*чтобы на новую строку не переходило*/
     font-family:serif;/*стиль шрифта*/
     
