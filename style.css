@@ -10,6 +10,7 @@ background: url(oldtr.jpg) fixed;/*размер под*/
     background-size:cover;
     background-repeat:no-repeat;
     min-width: 1000px;
+    
    
    
 }
@@ -18,8 +19,13 @@ main{
     padding: 10px 20px;
     border:5px solid black;
     margin-top:20px;
-    background: rgba(255, 255, 255,0.7 ) ;
-    
+    background: rgba(255, 255, 255,0.7 ) ;    
+}
+@media(max-width:700px){
+    main{
+        height: 300px;
+        width:300px;
+    }
 }
 .kal{
     height: 40px;
@@ -67,20 +73,13 @@ margin-right: 40px;
     text-decoration: none;
     color: white;
 }
-h1 {
-    
-    white-space: nowrap;/*чтобы на новую строку не переходило*/
-    font-family:serif;/*стиль шрифта*/
-    
-  font-size: 30px;/* размер шрифта*/
-    color:#ffe600;
-   padding-left:120px;
-    box-sizing: border-box;/**/
-    padding-bottom: 0px;
-    padding-top: 20px;
-   
-}
 
+@media(max-width:700px){
+    .mutd{
+        font-size:17px;
+        margin-right:5px;
+    }
+}
 nav {
   color: black;
 
